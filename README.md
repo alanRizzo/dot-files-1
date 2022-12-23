@@ -7,11 +7,10 @@
   ██║  ██║███████╗██║  ██║██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║
   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
   </pre>
-
-  <a href="">![GitHub top language](https://img.shields.io:/github/languages/top/alanRizzo/dotfiles?style=flat-square)</a>
-  <a href="">![GitHub code size in bytes](https://img.shields.io:/github/languages/code-size/alanRizzo/dotfiles?style=flat-square)</a>
-  <a href="">![GitHub last commit](https://img.shields.io:/github/last-commit/alanRizzo/dotfiles?style=flat-square)</a>
-  <a href="">![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.6.0+-blueviolet.svg?style=flat-square&logo=Neovim)</a>
+  <a href="">![GitHub top language](https://img.shields.io/github/languages/top/alanRizzo/dot-files?style=for-the-badge)</a>
+  <a href="">![GitHub code size in bytes](https://img.shields.io:/github/languages/code-size/alanRizzo/dotfiles?style=for-the-badge)</a>
+  <a href="">![GitHub last commit](https://img.shields.io:/github/last-commit/alanRizzo/dotfiles?style=for-the-badge)</a>
+  <a href="">![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.6.0+-blueviolet.svg?style=for-the-badge&logo=Neovim)</a>
 
   <br>
   <p>:boat: My Neovim setup :boat:</p>
