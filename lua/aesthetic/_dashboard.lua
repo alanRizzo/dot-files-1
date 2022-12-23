@@ -1,12 +1,17 @@
+local status_ok, db = pcall(require, "dashboard")
+if not status_ok then
+  return
+end
+
 
 -- Grep
 vim.g.dashboard_default_executive = 'telescope'
 
--- Custo Footer
-vim.g.dashboard_custom_footer = { 'make America great again' }
+-- Custom Footer
+db.custom_footer = { 'make America great again' }
 
 -- Custom Header
-vim.g.dashboard_custom_header = {
+db.custom_header = {
 ' █████╗ ██╗      █████╗ ███╗   ██╗██╗   ██╗██╗███╗   ███╗',
 '██╔══██╗██║     ██╔══██╗████╗  ██║██║   ██║██║████╗ ████║',
 '███████║██║     ███████║██╔██╗ ██║██║   ██║██║██╔████╔██║',
@@ -16,29 +21,25 @@ vim.g.dashboard_custom_header = {
 }
 
 -- Dashboard Sections
-vim.g.dashboard_custom_section = {
-  a = {
-    description = { '🚽  Recently used files ' },
-    command = 'Telescope oldfiles',
-  },
-  b = {
-    description = { '🎪  Find file           ' },
-    command = 'Telescope find_files',
-  },
-  c = {
-    description = { '👀  Find word           ' },
-    command = 'Telescope live_grep',
-  },
---  d = {
---    description = { '🐝  Change CoC settings ' },
---    command = ':e ~/.config/nvim/coc-settings.json',
---  },
-  e = {
-    description = { '🚪  Key mapping         ' },
-    command = ':e ~/.config/nvim/lua/general/mappings.lua',
-  },
-  f = {
-    description = { '🚃  Packages            ' },
-    command = ':e ~/.config/nvim/lua/packages.lua',
-  },
+db.custom_center = {
+  {icon = ' 🚽 ',
+  desc = 'Recently used files                                    ',
+  action ='Telescope oldfiles',
+  shortcut = ""},
+  {icon = ' 🎪 ',
+  desc = 'Find file                                     ',
+  action ='Telescope find_files',
+  shortcut = "<space> f"},
+  {icon = ' 👀 ',
+  desc = 'Find word                                     ',
+  action ='Telescope live_grep',
+  shortcut = "<space> w"},
+  {icon = ' 🚪 ',
+  desc = 'Key mapping                                         ',
+  action = ':e ~/.config/nvim/lua/general/mappings.lua',
+  shortcut = "' m"},
+  {icon = ' 🚃 ',
+  desc = 'Packages                                               ',
+  action = ':e ~/.config/nvim/lua/packages.lua',
+  shortcut = ""},
 }

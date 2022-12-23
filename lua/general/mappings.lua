@@ -47,12 +47,6 @@ function Substitute()
   vim.fn.setreg('0', '"' .. result .. '"')
 end
 
--- Telescope
-map('n', '<space>w', ':Telescope live_grep<CR>')
-map('n', '<space>f', ':Telescope find_files<CR>')
-map('n', '<space>u', ':Telescope grep_string<CR>')
-map('n', '<space>s', '^wy$<ESC>:lua Substitute()<CR>:Telescope live_grep default_text=<C-r>0<CR>')
-
 -- Tree
 map('n', '<C-n>', ':NvimTreeToggle<CR>')
 
@@ -69,6 +63,3 @@ map('n', '<space>tn', ':TestNearest<CR>')
 map('n', '<space>tf', ':TestFile<CR>')
 map('n', '<space>ts', ':TestSuite<CR>')
 map('n', '<space>tl', ':TestLast<CR>')
-
--- Switch Theme
-map('n', '<leader>mm', [[<Cmd>lua require('material.functions').toggle_style()<CR>]])

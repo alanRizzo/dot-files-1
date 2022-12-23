@@ -1,4 +1,4 @@
-require('aesthetic.options')
+require('aesthetic._catppucin')
 require('aesthetic._bufferline')
 require('aesthetic._dashboard')
 require('aesthetic._lualine')
