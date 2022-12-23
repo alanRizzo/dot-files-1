@@ -8,9 +8,9 @@
   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
   </pre>
 
-  <a href="">![GitHub top language](https://img.shields.io:/github/languages/top/alan-rizzo/dotfiles?style=flat-square)</a>
-  <a href="">![GitHub code size in bytes](https://img.shields.io:/github/languages/code-size/alan-rizzo/dotfiles?style=flat-square)</a>
-  <a href="">![GitHub last commit](https://img.shields.io:/github/last-commit/alan-rizzo/dotfiles?style=flat-square)</a>
+  <a href="">![GitHub top language](https://img.shields.io:/github/languages/top/alanRizzo/dotfiles?style=flat-square)</a>
+  <a href="">![GitHub code size in bytes](https://img.shields.io:/github/languages/code-size/alanRizzo/dotfiles?style=flat-square)</a>
+  <a href="">![GitHub last commit](https://img.shields.io:/github/last-commit/alanRizzo/dotfiles?style=flat-square)</a>
   <a href="">![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.6.0+-blueviolet.svg?style=flat-square&logo=Neovim)</a>
 
   <br>
@@ -90,7 +90,7 @@ Leader key: <kbd>'</kbd>
 | <kbd>space</kbd><kbd>f</kbd>   | normal | Fuzzy Find Files                      |
 | <kbd>space</kbd><kbd>w</kbd>   | normal | Fuzzy Find Words                      |
 | <kbd>space</kbd><kbd>u</kbd>   | normal | Fuzzy Find Under cursor Word          |
-| <kbd>space</kbd><kbd>s</kbd>   | normal | Fuzzy Find Behave Step :construction: | 
+| <kbd>space</kbd><kbd>s</kbd>   | normal | Fuzzy Find Behave Step :construction: |
 | <kbd>leader</kbd><kbd>f</kbd>  | normal | Jump to word                          |
 | <kbd>leader</kbd><kbd>md</kbd> | normal | Markdown preview                      |
 | <kbd>leader</kbd><kbd>rn</kbd> | normal | Rename word                           |
@@ -117,7 +117,7 @@ Shortcut to open it faster: <kbd>leader</kbd><kbd>m</kbd>
 ```markdown
 $HOME/.config/nvim
 ├── lua: General Configuration
-│ ├── aesthetic 
+│ ├── aesthetic
 │ │ ├── _bufferline.lua
 │ │ ├── _dashboard.lua
 │ │ ├── _lualine.lua
@@ -164,4 +164,3 @@ $HOME/.config/nvim
 - Snippet support via [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 - Buffer management via [bufdel](https://github.com/rmagatti/ojroques/nvim-bufdel)
 - Git support via [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
-
